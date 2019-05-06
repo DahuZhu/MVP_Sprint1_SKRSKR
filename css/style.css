@@ -20,9 +20,9 @@ nav{
   margin-top: 0px;
   width: 100%;
   height: 50px;
-  background: #99ccff;
-  border-top: 1px solid rgba(255, 0, 0, 0.2);
-  border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+  background: #221545;
+  /*border-top: 1px solid rgba(255, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.2);*/
   position: sticky; /* sticky the bar at the top */
   top: 0;
   z-index: 50;
@@ -41,7 +41,7 @@ nav ul li{
 nav ul li a{
   display: block;
   color: #fff;
-  background: #99ccff;
+  background: #221545;
   font-weight: bold;
   text-align: center;
   line-height: 50px;
@@ -57,7 +57,7 @@ nav ul li ul.dropdown{
   display: none; /* Show dropdowns only when hover*/
   position: absolute;
   padding: 0px;
-  background-color: #99ccff;
+  background-color: #221545;
 }
 nav ul li ul.dropdown li{
   display: block;
@@ -98,24 +98,26 @@ section p{
 
 .sec_1{
   /*border: 1px solid red;*/
-  background: url('images/image_desc.png');
-  background-size: 100% 100%;
-
+  background-image: url('../images/image_desc.png');
+  background-size: cover;
 }
 
-
 .sec_2{
-  background-color: #e3e3e3;
+  /*background-color: #e3e3e3;*/
   /*border: 1px solid blue;*/
 }
 .sec_2_all{
   width: 80%;
   height: 60%;
   position: relative;
-  top: 100px;
+  top: 130px;
   left: 10%;
   padding: 1rem;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+}
+.sec_2_all p{
+  font-size: 1.8rem;
+  line-height: 2.2rem;
 }
 .sec_3{
   /*border: 1px solid red;*/
