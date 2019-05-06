@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+  /*background-color: #cccccc;*/
+}
+body section{
+  display: block;
+}
+header{
+  height: 120px;
+}
+header p{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+header .search{
+  float: right;
+}
+nav{
+  margin-top: 0px;
+  width: 100%;
+  height: 50px;
+  background: #99ccff;
+  border-top: 1px solid rgba(255, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+  position: sticky; /* sticky the bar at the top */
+  top: 0;
+  z-index: 50;
+}
+nav ul{
+  display: flex;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  float: right;
+}
+nav ul li{
+  list-style: none;
+  width: 100px;
+}
+nav ul li a{
+  display: block;
+  color: #fff;
+  background: #99ccff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:active{
+  background: #99ff66;
+}
+
+section{
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  z-index: 20;
+}
+section h2{
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+}
+section p{
+  /*border: 1px solid black;*/
+  margin: 0;
+  padding: 0.2rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  z-index: 5;
+}
+
+.sec_desc{
+  width: 35%;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  margin: 0;
+  border: 1px solid gray;
+}
+
+.sec_1{
+  /*border: 1px solid red;*/
+  background-color: #fff5ee;
+}
+.sec_2{
+  background-color: #e3e3e3;
+  /*border: 1px solid blue;*/
+}
+.sec_2_all{
+  width: 80%;
+  height: 60%;
+  position: relative;
+  top: 100px;
+  left: 10%;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.sec_3{
+  /*border: 1px solid red;*/
+  background-color: #cfcfcf;
+}
+.sec_3_all{
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /*border: 1px solid yellow;*/
+}
+.sec_3_card{
+  width: 300px;
+  height: 200px;
+  border: 1px solid green;
+}
+.sec_4{
+  /*border: 1px solid blue;*/
+  background-color: #c1c1c1;
+}
+.sec_4_all{
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /*border: 1px solid yellow;*/
+}
+.sec_4_card{
+  width: 300px;
+  height: 200px;
+  border: 1px solid green;
+}
+.sec_5{
+  /*border: 1px solid red;*/
+  background-color: #8f8f8f;
+}
+.sec_5_all{
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /*border: 1px solid yellow;*/
+}
+.sec_5_card{
+  width: 300px;
+  height: 200px;
+  border: 1px solid green;
+}
+.sec_6{
+  /*border: 1px solid blue;*/
+  background-color: #636363;
+}
+.sec_6_all{
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /*border: 1px solid yellow;*/
+}
+.sec_6_card{
+  width: 300px;
+  height: 200px;
+  border: 1px solid green;
+}
+
+
+
+/*setting the position of card1,card2,card3 in each section*/
+.card1{
+  position: absolute;
+  top: 150px;
+  left: 40%;
+  z-index: 15;
+  float: none;
+}
+.card2{
+  position: absolute;
+  top: 150px;
+  left: 60%;
+  z-index: 15;
+  float: none;
+}
+.card3{
+  position: absolute;
+  top: 150px;
+  left: 80%;
+  z-index: 15;
+  float: none;
+}
+
+
+footer{
+  height: 500px;
+  /*border: 1px solid purple;*/
+}
+
+footer .footer_all{
+  height: 100%;
+  color: #fff;
+  background-color: #221545;
+}
