@@ -67,7 +67,7 @@ nav ul li ul.dropdown li{
 section{
   margin: 0;
   padding: 0;
-  height: 500px;
+  height: 600px;
   z-index: 20;
 }
 section h2{
@@ -88,10 +88,10 @@ section p{
 
 .sec_desc{
   width: 35%;
-  height: 400px;
+  height: 20vw;
   position: absolute;
-  top: 50px;
-  left: 30px;
+  top: 18%;
+  left: 2%;
   margin: 0;
   border: 1px solid gray;
 }
@@ -99,7 +99,9 @@ section p{
 .sec_1{
   /*border: 1px solid red;*/
   background-image: url('../images/image_desc.png');
-  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .sec_2{
@@ -108,12 +110,12 @@ section p{
 }
 .sec_2_all{
   width: 80%;
-  height: 60%;
+  height: 180px;
   position: relative;
-  top: 130px;
+  top: 30%;
   left: 10%;
   padding: 1rem;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 .sec_2_all p{
   font-size: 1.8rem;
@@ -133,8 +135,8 @@ section p{
   /*border: 1px solid yellow;*/
 }
 .sec_3_card{
-  width: 300px;
-  height: 200px;
+  width: 15%;
+  height: 10vw;
   border: 1px solid green;
 }
 .sec_4{
@@ -151,8 +153,8 @@ section p{
   /*border: 1px solid yellow;*/
 }
 .sec_4_card{
-  width: 300px;
-  height: 200px;
+  width: 15%;
+  height: 10vw;
   border: 1px solid green;
 }
 .sec_5{
@@ -169,8 +171,8 @@ section p{
   /*border: 1px solid yellow;*/
 }
 .sec_5_card{
-  width: 300px;
-  height: 200px;
+  width: 15%;
+  height: 10vw;
   border: 1px solid green;
 }
 .sec_6{
@@ -187,8 +189,8 @@ section p{
   /*border: 1px solid yellow;*/
 }
 .sec_6_card{
-  width: 300px;
-  height: 200px;
+  width: 15%;
+  height: 10vw;
   border: 1px solid green;
 }
 
@@ -197,21 +199,21 @@ section p{
 /*setting the position of card1,card2,card3 in each section*/
 .card1{
   position: absolute;
-  top: 150px;
+  top: 33%;
   left: 40%;
   z-index: 15;
   float: none;
 }
 .card2{
   position: absolute;
-  top: 150px;
+  top: 33%;
   left: 60%;
   z-index: 15;
   float: none;
 }
 .card3{
   position: absolute;
-  top: 150px;
+  top: 33%;
   left: 80%;
   z-index: 15;
   float: none;
