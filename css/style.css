@@ -7,7 +7,7 @@ body section{
   display: block;
 }
 header{
-  height: 120px;
+  height: 167px;
 }
 header p{
   font-family: sans-serif;
@@ -36,7 +36,7 @@ nav ul{
 }
 nav ul li{
   list-style: none;
-  width: 100px;
+  width: 200px;
 }
 nav ul li a{
   display: block;
@@ -48,8 +48,21 @@ nav ul li a{
   text-decoration: none;
 }
 nav ul li a:hover, nav ul li a:active{
-  background: #99ff66;
+  background: #f00;
 }
+nav ul li:hover ul.dropdown{
+  display: block;
+}
+nav ul li ul.dropdown{
+  display: none; /* Show dropdowns only when hover*/
+  position: absolute;
+  padding: 0px;
+  background-color: #99ccff;
+}
+nav ul li ul.dropdown li{
+  display: block;
+}
+
 
 section{
   margin: 0;
@@ -85,8 +98,12 @@ section p{
 
 .sec_1{
   /*border: 1px solid red;*/
-  background-color: #fff5ee;
+  background: url('images/image_desc.png');
+  background-size: 100% 100%;
+
 }
+
+
 .sec_2{
   background-color: #e3e3e3;
   /*border: 1px solid blue;*/
