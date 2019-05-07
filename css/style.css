@@ -71,18 +71,26 @@ section{
   z-index: 20;
 }
 section h2{
+  margin: 20px 10px;
   font-family: sans-serif;
   font-size: 2rem;
+  font-weight: normal;
+  line-height: 3rem;
+}
+section h3{
+  margin: 2px 8px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
   font-weight: bold;
-  line-height: 2.4rem;
+  line-height: 1.8rem;
 }
 section p{
   /*border: 1px solid black;*/
-  margin: 0;
+  margin: 0.2rem;
   padding: 0.2rem;
   font-family: sans-serif;
   font-size: 1rem;
-  line-height: 1.2rem;
+  line-height: 1.3rem;
   z-index: 5;
 }
 
@@ -120,6 +128,7 @@ section p{
 .sec_2_all p{
   font-size: 1.8rem;
   line-height: 2.2rem;
+  font-style: italic;
 }
 .sec_3{
   /*border: 1px solid red;*/
@@ -137,7 +146,7 @@ section p{
 .sec_3_card{
   width: 15%;
   height: 10vw;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 .sec_4{
   /*border: 1px solid blue;*/
@@ -155,7 +164,7 @@ section p{
 .sec_4_card{
   width: 15%;
   height: 10vw;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 .sec_5{
   /*border: 1px solid red;*/
@@ -173,7 +182,7 @@ section p{
 .sec_5_card{
   width: 15%;
   height: 10vw;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 .sec_6{
   /*border: 1px solid blue;*/
@@ -191,7 +200,25 @@ section p{
 .sec_6_card{
   width: 15%;
   height: 10vw;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
+}
+.sec_7{
+  /*border: 1px solid blue;*/
+  background-color: #8f8f8f;
+}
+.sec_7_all{
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /*border: 1px solid yellow;*/
+}
+.sec_7_card{
+  width: 15%;
+  height: 10vw;
+  /*border: 1px solid green;*/
 }
 
 
@@ -218,6 +245,50 @@ section p{
   z-index: 15;
   float: none;
 }
+
+/*setting the background color of each card*/
+.card3_1{
+  background-color: #99ddff;
+}
+.card3_2{
+  background-color: #66ffcc;
+}
+.card4_1{
+  background-color: #ffff80;
+}
+.card4_2{
+  background-color: #ffcc99;
+}
+.card5_1{
+  background-color: #66ff66;
+}
+.card5_2{
+  background-color: #33ffcc;
+}
+.card5_3{
+  background-color: #66d9ff;
+}
+.card6_1{
+  background-color: #66ffcc;
+}
+.card6_2{
+  background-color: #ffcc99;
+}
+.card6_3{
+  background-color: #ffff80;
+}
+.card7_1{
+  background-color: #ffcc99;
+}
+.card7_2{
+  background-color: #99ddff;
+}
+
+
+
+
+
+
 
 
 footer{
