@@ -13,9 +13,41 @@ header p{
   font-family: sans-serif;
   font-weight: bold;
 }
+
+
+/*search bar*/
 header .search{
   float: right;
+  padding: 6px 10px;
+  margin-top: 60px;
+  margin-right: 16px;
+  background: #221545;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
 }
+.button_size{
+  width:40px;
+  height:30px;
+}
+.search input[type=text] {
+  padding: 6px;
+  margin-top: auto;
+  font-size: 17px;
+  border: none;
+}
+.zoom_photo{
+  width:30px;
+  height: 24px;
+
+}
+
+
+
+
+
+
+
 nav{
   margin-top: 0px;
   width: 100%;
