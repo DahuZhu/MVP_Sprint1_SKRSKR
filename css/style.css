@@ -336,7 +336,7 @@ section p{
 
 
 footer{
-  height: 500px;
+  /*height: 500px;
   /*border: 1px solid purple;*/
 }
 
@@ -348,22 +348,23 @@ footer .footer_all{
 
 .f_social_icons{
   width: 100%;
-  height: 80px;
-  margin-top: 0px;
+  height: 60px;
+  margin: 20px 0px;
   padding-top: 10px;
 }
 
 .f_social_icons ul{
   text-align: center;
-  margin: 0;
+  margin: 0px;
   padding: 0;
   list-style-type: none;
+  /*border: 1px solid red;*/
 }
 
 .f_social_icons ul li{
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   margin: 0px 20px;
   /*background: rgba(192,192,192,0.8)*/
   background: #cccccc;
@@ -373,11 +374,11 @@ footer .footer_all{
 .f_social_icons ul li a{
   display: block;
   color: #000;
-  font-size: 65px;
+  font-size: 50px;
 }
 
 .f_social_icons ul li a i{
-  line-height: 80px;
+  line-height: 60px;
 }
 
 .f_social_icons ul li:hover{
