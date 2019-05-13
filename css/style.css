@@ -14,6 +14,9 @@ header p{
   font-weight: bold;
 }
 
+div{
+  overflow: hidden;
+}
 
 /*search bar*/
 .Search_bar {
@@ -39,8 +42,8 @@ header p{
 			}
 
 			.Search_parent>input:first-of-type:focus {
-				border: 1px solid #221545;
-				padding-left: 10px;
+				border: 2px solid #221545;
+				padding-left: 5px;
 			}
 
 			.Search_parent>input:last-of-type {
@@ -49,7 +52,7 @@ header p{
 				height: 46px;
 				position: absolute;
 				background: #221545;
-				border: 1px solid #221545;
+				border: 2px solid #221545;
 				color: #fff;
 				font-size: 16px;
 				outline: none;
@@ -152,8 +155,8 @@ section p{
 
 .sec_1{
   /*border: 1px solid red;*/
-  background-image: url('../images/image_desc.png');
-  background-attachment: fixed;
+  background-image: url('../images/image_descr.jpg');
+  /*background-attachment: fixed;*/
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
