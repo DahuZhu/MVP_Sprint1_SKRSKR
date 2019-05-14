@@ -168,7 +168,7 @@ nav ul li ul.dropdown li{
 section{
   margin: 0;
   padding: 0;
-  height: 600px;
+  min-height: 600px;
   z-index: 20;
 }
 section h2{
@@ -198,12 +198,21 @@ section p{
 .sec_desc{
   width: 35%;
   height: 20vw;
+  min-width: 500px;
+  min-height: 350px;
+  /*
+  width: 35%;
+  height: 20vw;
   position: absolute;
   top: 18%;
   left: 2%;
-  margin: 0;
+  */
+  margin: 120px auto auto 100px;;
   border: 1px solid gray;
+  float: left;
 }
+
+
 .sec_1{
   /*border: 1px solid red;*/
   background-image: url('../images/image_descr.jpg');
@@ -246,6 +255,8 @@ section p{
 .sec_3_card{
   width: 15%;
   height: 10vw;
+  min-width: 300px;
+  min-height: 200px;
   /*border: 1px solid green;*/
 }
 .sec_3_card:hover{
@@ -267,6 +278,8 @@ section p{
 .sec_4_card{
   width: 15%;
   height: 10vw;
+  min-width: 300px;
+  min-height: 200px;
   /*border: 1px solid green;*/
 }
 .sec_4_card:hover{
@@ -288,6 +301,8 @@ section p{
 .sec_5_card{
   width: 15%;
   height: 10vw;
+  min-width: 300px;
+  min-height: 200px;
   /*border: 1px solid green;*/
 }
 .sec_5_card:hover{
@@ -309,6 +324,8 @@ section p{
 .sec_6_card{
   width: 15%;
   height: 10vw;
+  min-width: 300px;
+  min-height: 200px;
   /*border: 1px solid green;*/
 }
 .sec_6_card:hover{
@@ -330,6 +347,8 @@ section p{
 .sec_7_card{
   width: 15%;
   height: 10vw;
+  min-width: 300px;
+  min-height: 200px;
   /*border: 1px solid green;*/
 }
 .sec_7_card:hover{
@@ -338,26 +357,64 @@ section p{
 
 /*setting the position of card1,card2,card3 in each section*/
 .card1{
+  /*
   position: absolute;
   top: 33%;
   left: 40%;
+  */
+  margin: 200px 40px 20px 50px;
   z-index: 15;
-  float: none;
+  float: left;
 }
 .card2{
-  position: absolute;
+  /*position: absolute;
   top: 33%;
   left: 60%;
+  */
+  margin: 200px 40px 20px 50px;
   z-index: 15;
-  float: none;
+  float: left;
 }
 .card3{
+  /*
   position: absolute;
   top: 33%;
   left: 80%;
+  */
+  margin: 200px 20px 20px 50px;
   z-index: 15;
-  float: none;
+  float: left;
 }
+
+@media screen and (max-width: 1400px){
+  .sec_desc{
+    margin: 100px auto auto 100px;
+  }
+  .card1{
+    margin: 40px auto 10px 150px;
+  }
+  .card2{
+    margin: 40px auto 10px 150px;
+  }
+  .card3{
+    margin: 40px auto 10px 150px;
+  }
+}
+@media screen and (max-width: 1070px){
+  .sec_desc{
+    margin: 100px auto auto 250px;
+  }
+  .card1{
+    margin: 40px auto 10px 150px;
+  }
+  .card2{
+    margin: 40px auto 10px 150px;
+  }
+  .card3{
+    margin: 40px auto 10px 150px;
+  }
+}
+
 
 /*setting the background color of each card*/
 .card3_1{
@@ -386,6 +443,9 @@ section p{
 }
 .card6_2{
   background-color: #ffcc99;
+}
+.card6_3{
+  background-color: #ffdd99;
 }
 .card7_1{
   background-color: #ffcc99;
