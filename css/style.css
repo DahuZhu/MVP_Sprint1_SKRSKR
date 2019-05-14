@@ -238,10 +238,13 @@ section p{
 }
 .sec_2_all{
   width: 80%;
-  height: 180px;
   margin: 0px auto;
+  /*border: 1px solid black;*/
+}
+.sec_2_text{
+  margin-top: 200px;
   padding: 1rem;
-  border: 1px solid black;
+  border: 1px solid green;
 }
 .sec_2_all p{
   font-size: 1.8rem;
