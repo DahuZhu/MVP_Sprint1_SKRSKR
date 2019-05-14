@@ -196,6 +196,9 @@ section p{
 }
 
 .sec_desc{
+  background-image: url('../images/borderstyle.png');
+  background-position: center;
+  background-size: cover;
   width: 35%;
   height: 20vw;
   min-width: 500px;
@@ -214,6 +217,10 @@ section p{
   float: left;
 }
 
+#tit{
+  position: relative;
+  top:-6%;
+}
 
 .sec_1{
   /*border: 1px solid red;*/
