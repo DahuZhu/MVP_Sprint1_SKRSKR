@@ -254,6 +254,7 @@ section p{
 .sec_3{
   /*border: 1px solid red;*/
   background-color: #cfcfcf;
+  background-image:linear-gradient(to right,rgba(50,92,165),rgba(255,0,0,0));
 }
 .sec_3_all{
   width: 100%;
@@ -279,6 +280,7 @@ section p{
 .sec_4{
   /*border: 1px solid blue;*/
   background-color: #c1c1c1;
+  background-image:linear-gradient(to right,rgba(255,0,0,0),rgba(50,92,165));
 }
 .sec_4_all{
   width: 100%;
@@ -304,6 +306,7 @@ section p{
 .sec_5{
   /*border: 1px solid red;*/
   background-color: #8f8f8f;
+  background-image:linear-gradient(to right,rgba(50,92,165),rgba(255,0,0,0));
 }
 .sec_5_all{
   width: 100%;
@@ -329,6 +332,7 @@ section p{
 .sec_6{
   /*border: 1px solid blue;*/
   background-color: #fff;
+  background-image:linear-gradient(to right,rgba(255,0,0,0),rgba(50,92,165));
 }
 .sec_6_all{
   width: 100%;
@@ -354,6 +358,7 @@ section p{
 .sec_7{
   /*border: 1px solid blue;*/
   background-color: #8f8f8f;
+  background-image:linear-gradient(to right,rgba(50,92,165),rgba(255,0,0,0));
 }
 .sec_7_all{
   width: 100%;
