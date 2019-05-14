@@ -57,7 +57,7 @@ div{
 				color: #fff;
 				font-size: 16px;
 				outline: none;
-			}
+      }
 
 
 
@@ -153,7 +153,6 @@ section p{
   margin: 0;
   border: 1px solid gray;
 }
-
 .sec_1{
   /*border: 1px solid red;*/
   background-image: url('../images/image_descr.jpg');
@@ -198,6 +197,9 @@ section p{
   height: 10vw;
   /*border: 1px solid green;*/
 }
+.sec_3_card:hover{
+  box-shadow: 0 8px 16px 0 #5e6063;
+}
 .sec_4{
   /*border: 1px solid blue;*/
   background-color: #c1c1c1;
@@ -215,6 +217,9 @@ section p{
   width: 15%;
   height: 10vw;
   /*border: 1px solid green;*/
+}
+.sec_4_card:hover{
+  box-shadow: 0 8px 16px 0 #5e6063;
 }
 .sec_5{
   /*border: 1px solid red;*/
@@ -234,9 +239,12 @@ section p{
   height: 10vw;
   /*border: 1px solid green;*/
 }
+.sec_5_card:hover{
+  box-shadow: 0 8px 16px 0 #5e6063;
+}
 .sec_6{
   /*border: 1px solid blue;*/
-  background-color: #636363;
+  background-color: #fff;
 }
 .sec_6_all{
   width: 100%;
@@ -251,6 +259,9 @@ section p{
   width: 15%;
   height: 10vw;
   /*border: 1px solid green;*/
+}
+.sec_6_card:hover{
+  box-shadow: 0 8px 16px 0 #5e6063;
 }
 .sec_7{
   /*border: 1px solid blue;*/
@@ -269,6 +280,9 @@ section p{
   width: 15%;
   height: 10vw;
   /*border: 1px solid green;*/
+}
+.sec_7_card:hover{
+  box-shadow: 0 8px 16px 0 #5e6063;
 }
 
 /*setting the position of card1,card2,card3 in each section*/
@@ -321,9 +335,6 @@ section p{
 }
 .card6_2{
   background-color: #ffcc99;
-}
-.card6_3{
-  background-color: #ffff80;
 }
 .card7_1{
   background-color: #ffcc99;
