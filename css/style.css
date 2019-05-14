@@ -357,30 +357,16 @@ section p{
 
 /*setting the position of card1,card2,card3 in each section*/
 .card1{
-  /*
-  position: absolute;
-  top: 33%;
-  left: 40%;
-  */
   margin: 200px 40px 20px 50px;
   z-index: 15;
   float: left;
 }
 .card2{
-  /*position: absolute;
-  top: 33%;
-  left: 60%;
-  */
   margin: 200px 40px 20px 50px;
   z-index: 15;
   float: left;
 }
 .card3{
-  /*
-  position: absolute;
-  top: 33%;
-  left: 80%;
-  */
   margin: 200px 20px 20px 50px;
   z-index: 15;
   float: left;
@@ -414,7 +400,20 @@ section p{
     margin: 40px auto 10px 150px;
   }
 }
-
+@media screen and (max-width: 915px){
+  .sec_desc{
+    margin: 100px auto auto 130px;
+  }
+  .card1{
+    margin: 40px auto 10px 250px;
+  }
+  .card2{
+    margin: 40px auto 10px 250px;
+  }
+  .card3{
+    margin: 40px auto 10px 250px;
+  }
+}
 
 /*setting the background color of each card*/
 .card3_1{
