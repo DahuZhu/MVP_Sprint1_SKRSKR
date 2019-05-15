@@ -195,11 +195,17 @@ section p{
   z-index: 5;
 }
 
+#cont{
+  margin-top: -110px;
+  font-size: 20px;
+  padding: 100px;
+}
+
 .sec_desc{
   background-image: url('../images/borderstyle.png');
   background-position: center;
-  background-size: cover;
-  width: 35%;
+  background-size: 135% 105%;
+  width: 37%;
   height: 20vw;
   min-width: 500px;
   min-height: 350px;
