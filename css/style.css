@@ -246,6 +246,9 @@ section p{
 }
 
 .sec_2{
+  background-image: url('../images/bounimg.png');
+  background-repeat: no-repeat;
+  background-position: 50% 90%;
   width: 100%;
   height: 100%;
   /*background-color: #e3e3e3;*/
@@ -259,7 +262,6 @@ section p{
 .sec_2_text{
   margin-top: 200px;
   padding: 1rem;
-  border: 1px solid green;
 }
 .sec_2_all p{
   font-size: 1.8rem;
