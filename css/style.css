@@ -181,21 +181,25 @@ section h2{
 section h3{
   margin: 2px 8px;
   font-family: sans-serif;
+  color:white;
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.8rem;
 }
 section p{
   /*border: 1px solid black;*/
+  color: white;
   margin: 0.2rem;
   padding: 0.2rem;
   font-family: sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.3rem;
   z-index: 5;
 }
 
 #cont{
+  color: black;
+  font-size: 1.3rem;
   margin-top: -110px;
   font-size: 20px;
   padding: 100px;
@@ -223,7 +227,12 @@ section p{
   float: left;
 }
 
+#intro{
+  color: black;
+}
+
 #tit{
+  font-weight: bold;
   position: relative;
   top:-6%;
 }
@@ -466,40 +475,40 @@ section p{
 
 /*setting the background color of each card*/
 .card3_1{
-  background-color: #99ddff;
+  background-color:#202c83;
 }
 .card3_2{
-  background-color: #66ffcc;
+  background-color:#202c83;
 }
 .card4_1{
-  background-color: #ffff80;
+  background-color:#202c83;
 }
 .card4_2{
-  background-color: #ffcc99;
+  background-color:#202c83;
 }
 .card5_1{
-  background-color: #66ff66;
+  background-color:#202c83;
 }
 .card5_2{
-  background-color: #33ffcc;
+  background-color:#202c83;
 }
 .card5_3{
-  background-color: #66d9ff;
+  background-color:#202c83;
 }
 .card6_1{
-  background-color: #66ffcc;
+  background-color: #202c83;
 }
 .card6_2{
-  background-color: #ffcc99;
+  background-color: #202c83;
 }
 .card6_3{
-  background-color: #ffdd99;
+  background-color: #202c83;
 }
 .card7_1{
-  background-color: #ffcc99;
+  background-color: #202c83;
 }
 .card7_2{
-  background-color: #99ddff;
+  background-color: #202c83;
 }
 
 
