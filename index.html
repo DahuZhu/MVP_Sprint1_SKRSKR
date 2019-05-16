@@ -5,169 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
     <title>SKRSKR</title>
   </head>
   <body>
-    <header>
-      <img src="images/cdu_left_logo.png" alt="logo">
-      <div class="Search_bar">
-        <form action="" class="Search_parent">
-            <input type="text" placeholder=" &nbsp;What are you looking for?">
-            <input type="button"  value="Search">
-        </form>
-      </div>
-    </header>
+    <div style="width:100%;float: left;">
+  		<div style="width:21%; float: left; min-width: 250px;">
+  			<img src="images/cdu_left_logo.png" width="100%" alt="logo" />
+  		</div>
+      	<div class="Search_bar" style="float: right;margin-top:30px;">
+    			<form action="" class="Search_parent">
+    			   <input type="text" placeholder=" &nbsp;What are you looking for?">
+    			   <input type="button"  value="Search">
+    			</form>
+  		</div>
+    </div>
+    <div class="showNav">
+    </div>
+    <div class="navTwo" style="width: 100%; overflow: hidden; float: left; display: none;">
+      <div class="tag" style="">CDU</div>
+      <div class="tag" id="tag1" style="">AI & Plagrism</div>
+        <div class="tag tag1" style="display:none">
+          <div class="tag">Academic Intergrity</div>
+          <div class="tag">Plagrism</div>
+        </div>
+      <div class="tag" style="">Why Reference</div>
+      <div class="tag" style="">Reference Style</div>
+      <div class="tag" style="">Cultural Differences</div>
+      <div class="tag" style="">Tool</div>
+    	<div class="tag Search_bar2" style="">
+      <input type="text" placeholder=" &nbsp;What are you looking for?">
+  		<input type="button"  value="Search">
+  		</div>
+    </div>
+    <div class="nav" style="width:100%;float: left;">
+      <nav>
+        <ul>
+          <li><a href="#">CDU</a>
+          </li>
+          <li><a href="#">AI & Plagrism</a>
+            <ul class = "dropdown">
+              <li><a href="#">Academic Integrity</a></li>
+              <li><a href="#">Plagrism</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Why Reference</a>
+            <ul class = "dropdown">
+              <li><a href="#">Importance</a></li>
+              <li><a href="#">Reasons</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Reference Style</a>
+            <ul class = "dropdown">
+              <li><a href="#">APA</a></li>
+              <li><a href="#">Harvard</a></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Cultural Differences</a>
+            <ul class = "dropdown">
+              <li><a href="#">Definition</a></li>
+              <li><a href="#">Problems</a></li>
+              <li><a href="#">Avoidance</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Tool</a>
+            <ul class = "dropdown">
+              <li><a href="#">Endnote</a></li>
+              <li><a href="#">Tutorials</a></li>
+            </ul>
+          </li>
+  		   </ul>
+       </nav>
+     </div>
 
-    <nav>
-      <ul>
-        <li><a href="#">CDU</a>
-          <ul class = "dropdown">
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-          </ul>
-        </li>
-        <li><a href="#">AI & Plagrism</a>
-          <ul class = "dropdown">
-            <li><a href="#">Academic Integrity</a></li>
-            <li><a href="#">Plagrism</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Why Reference</a>
-          <ul class = "dropdown">
-            <li><a href="#">Importance</a></li>
-            <li><a href="#">Reasons</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Reference Style</a>
-          <ul class = "dropdown">
-            <li><a href="#">APA</a></li>
-            <li><a href="#">Harvard</a></li>
-            <li><a href="#">Others</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Cultural Differences</a>
-          <ul class = "dropdown">
-            <li><a href="#">Definition</a></li>
-            <li><a href="#">Problems</a></li>
-            <li><a href="#">Avoidance</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Tool</a>
-          <ul class = "dropdown">
-            <li><a href="#">Endnote</a></li>
-            <li><a href="#">Tutorials</a></li>
-          </ul>
-        </li>
-    </nav>
-
-    <section class="sec_1">
-
-    </section>
-    <section class="sec_2">
-      <div class="sec_2_all">
-        <div class="sec_2_text">
-          <p id="intro">Referencing is a consistent method of acknowledging another person's ideas which you have used in your own writing. You must reference all sources that you use in your work, including words and ideas, facts, images, videos, audio, websites, statistics, diagrams and data</p>
-        </div>
-      </div>
-    </section>
-    <section class="sec_3">
-      <div class="sec_3_all">
-        <div class="sec_desc">
-          <h2 id="tit">Academic Integrity and Plagrism</h2>
-          <p id="cont">Charles Darwin University encourages all students to use academic resources in an ethical manner and to demonstrate academic integrity in all aspects of their writing and scholarship. Academic integrity is the absence of plagiarism and cheating</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_3_card card1 card3_1">
-          <h3>Academic Integrity</h3>
-          <p>Academic integrity gives you a foundation for being an ethical citizen and a trusted worker in whatever context you find yourself in</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_3_card card2 card3_2">
-          <h3>Plagrism</h3>
-          <p>Plagiarism is presenting, without any form of acknowledgment, the ideas or words of another writer as if they were your own</p>
-        </div>
-      </div>
-    </section>
-    <section class="sec_4">
-      <div class="sec_4_all">
-
-        <div class="sec_desc">
-          <h2 id="tit">Why Reference</h2>
-          <p id="cont">A reference is a signpost that tells the reader the source of facts, information, ideas, arguments, and theories. If the reader wants to check the original source, a reference enables them to find it</p>
-        </div>
-
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_4_card card1 card4_1">
-          <h3>Importance</h3>
-          <p>Five points about importance</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_4_card card2 card4_2">
-          <h3>Reasons</h3>
-          <p>Three points about reasons</p>
-        </div>
-      </div>
-    </section>
-    <section class="sec_5">
-      <div class="sec_5_all">
-
-        <div class="sec_desc">
-          <h2 id="tit">Reference Style</h2>
-          <p id="cont">There are many referencing styles and the reference you copy from a journal article may not be in the style you are required to use.  The most commonly used styles at CDU are Harvard and APA. However, your lecturer may require you to use a style other than these</p>
-        </div>
-
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_5_card card1 card5_1">
-          <h3>APA</h3>
-          <p>Definition guide and standard</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_5_card card2 card5_2">
-          <h3>Harvard</h3>
-          <p>No definitive guide or standard</p>
-          <p>It has developed by CDU Library to support for CDU Students</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_5_card card3 card5_3">
-          <h3>Other Styles</h3>
-          <p>Include AGLC, IEEE, Chicage, MLA, Vancouver, NLM and ABS statistics</p>
-        </div>
-      </div>
-    </section>
-    <section class="sec_6">
-      <div class="sec_6_all">
-
-        <div class="sec_desc">
-          <h2 id="tit">Cultural Differences</h2>
-          <p id="cont">The diverse cultural backgrounds of our students bring different understandings of scholarship and academic practice; this may lead them to unwittingly commit plagiarism</p>
-        </div>
-
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_6_card card1 card6_1">
-          <h3>Problems</h3>
-          <p> Four points of problems</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_6_card card2 card6_2">
-          <h3>How to avoid</h3>
-          <p>How to avoid these problems</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_6_card card3 card6_3">
-          <h3>Avoidance</h3>
-          <p></p>
-        </div>
-      </div>
-    </section>
-    <section class="sec_7">
-      <div class="sec_7_all">
-        <div class="sec_desc">
-          <h2 id="tit">Tool</h2>
-          <p id="cont">Introdce a tool named EndNote which is a reference organiser and writing solution for students to collect reference and add ciatation easily </p>
-        </div>
-
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_7_card card1 card7_1">
-          <h3>EndNote</h3>
-          <p>EndNote is a Bibliographic Management tool which allows you to add references manually or automatically from Library databases to your EndNote Library</p>
-        </div>
-        <div onclick="location.href='http://www.cdu.edu.au'" class="sec_7_card card2 card7_2">
-          <h3>Tutorials</h3>
-          <p>The video tutorials to show how EndNote works</p>
-        </div>
-    </section>
-
+     <div style="width:100%;">
+   		<div style="width:100%;overflow: hidden;">
+   			<img src="images/image_descr.jpg" width="100%">
+   		</div>
+   		<div class="" style="width: 90%; margin: 5%; 50px 5% 50px; border: 1px solid green; font-size: 1.8rem;line-height: 2.2rem; font-style: italic;">
+             <p>Referencing is a consistent method of acknowledging another person's ideas which you have used in your own writing. You must reference all sources that you use in your work, including words and ideas, facts, images, videos, audio, websites, statistics, diagrams and data.</p>
+       </div>
+       <div class="card" style="">
+   			<div class="cardFt" style="">
+   			  <h2 id="">Academic Integrity and Plagrism</h2>
+   			  <p>Charles Darwin University encourages all students to use academic resources in an ethical manner and to demonstrate academic integrity in all aspects of their writing and scholarship. Academic integrity is the absence of plagiarism and cheating</p>
+   			  <p>Section3</p>
+   			</div>
+   			<div onclick="location.href='http://www.cdu.edu.au'" class="cardSc" style="background-color: #99ddff;">
+   			  <h3>Academic Integrity</h3>
+   			  <p>The core set of five values and principles that are the foundation of the University’s mission</p>
+   			</div>
+   			<div onclick="location.href='http://www.cdu.edu.au'" class="cardSc" style="background-color: #66ffcc;">
+   			  <h3>Plagrism</h3>
+   			  <p>Plagiarism is presenting, without any form of acknowledgment, the ideas or words of another writer as if they were your own.</p>
+   			</div>
+   		</div>
+   		<div class="card" style="">
+   			<div class="cardFt" style="">
+   			  <h2 id="">Academic Integrity and Plagrism</h2>
+   			  <p>Charles Darwin University encourages all students to use academic resources in an ethical manner and to demonstrate academic integrity in all aspects of their writing and scholarship. Academic integrity is the absence of plagiarism and cheating</p>
+   			  <p>Section3</p>
+   			</div>
+   			<div onclick="location.href='http://www.cdu.edu.au'" class="cardSc" style="background-color: #99ddff;">
+   			  <h3>Academic Integrity</h3>
+   			  <p>The core set of five values and principles that are the foundation of the University’s mission</p>
+   			</div>
+   			<div onclick="location.href='http://www.cdu.edu.au'" class="cardSc" style="background-color: #66ffcc;">
+   			  <h3>Plagrism</h3>
+   			  <p>Plagiarism is presenting, without any form of acknowledgment, the ideas or words of another writer as if they were your own.</p>
+   			</div>
+   		</div>
+   	</div>
   </body>
 
   <footer>
@@ -189,5 +138,17 @@
 
     </div>
   </footer>
-  <script src="js/main.js"></script>
+  <script>
+	  $(document).ready(function(){
+		  $(".showNav").click(function(){
+			  $(".navTwo").toggle();
+		  });
+      $(window).resize(function(){
+			  var windowsize = $(window).width()
+			  if(windowsize > 850){
+				  $(".navTwo").css("display","none");
+			  }
+		  })
+	  })
+	</script>
 </html>
