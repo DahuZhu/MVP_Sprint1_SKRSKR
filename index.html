@@ -143,6 +143,12 @@
 		  $(".showNav").click(function(){
 			  $(".navTwo").toggle();
 		  });
+      $(".tag").each(function(){
+        $(this).click(function(){
+          var idname = $(this).attr("id");
+          $("."+idname).toggle();
+        });
+      })
       $(window).resize(function(){
 			  var windowsize = $(window).width()
 			  if(windowsize > 850){
