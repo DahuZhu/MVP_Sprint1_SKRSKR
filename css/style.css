@@ -47,65 +47,7 @@ header{
 		font-size: 16px;
 		outline: none;
 }
-@media screen and (max-width: 1200px){
-  .Search_bar{
-    display: none;
-  }
 
-  nav ul li a{
-    display: block;
-    color: #fff;
-    background: #221545;
-    font-weight: bold;
-    font-size: 0.7rem;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-  }
-  nav ul li{
-    list-style: none;
-    max-width: 150px;;
-  }
-}
-@media screen and (max-width: 1000px){
-  .Search_bar{
-    display: none;
-  }
-
-  nav ul li a{
-    display: block;
-    color: #fff;
-    background: #221545;
-    font-weight: bold;
-    font-size: 0.5rem;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-  }
-  nav ul li{
-    list-style: none;
-    max-width: 110px;;
-  }
-}
-@media screen and (max-width: 700px){
-  .Search_bar{
-    display: none;
-  }
-  nav ul li a{
-    display: block;
-    color: #fff;
-    background: #221545;
-    font-weight: bold;
-    font-size: 0.4rem;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-  }
-  nav ul li{
-    list-style: none;
-    max-width: 80px;;
-  }
-}
 
 
 nav{
@@ -153,4 +95,47 @@ nav ul li ul.dropdown{
 }
 nav ul li ul.dropdown li{
   display: block;
+}
+
+.card{
+	width: 100%; float: left; margin-bottom: 20px;
+}
+.cardFt{
+	border:1px solid #000000; box-shadow: 1px 1px 3px 3px #000000; width: 20%; padding: 3%; margin-left: 5%; float: left;
+}
+.cardSc{
+	width: 15%; padding: 3%; margin-left: 5%; float: left; margin-top: 20px;
+}
+
+.tag{
+	width: 100%;color: #fff; background: #221545; font-weight: bold; font-size: 20px; text-align: center; line-height: 50px; text-decoration: none; min-height: 50px;
+}
+@media screen and (max-width: 850px){
+  .Search_bar{
+    display: none;
+  }
+	.showNav{
+		display:block;
+	}
+	.showNav{width: 50px; height: 50px;border: 1px solid #000000; position: absolute; right: 30px; top:30px; text-align: center; background-color: aqua;}
+	.nav{
+		display: none;
+	}
+
+  nav ul li a{
+    display: block;
+    color: #fff;
+    background: #221545;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+  }
+	.cardFt{
+		border:1px solid #000000; box-shadow: 1px 1px 3px 3px #000000; width: 90%; padding: 5px; margin-left: 5%; float: left;
+	}
+	.cardSc{
+		width: 90%; padding: 5px; margin-left: 5%; float: left; margin-top: 20px;
+	}
 }
