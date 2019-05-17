@@ -102,12 +102,31 @@ nav ul li ul.dropdown li{
   font-size: 15px;
 
 }
+
+.menu{
+  display: none;
+}
+
 @media screen and (max-width: 850px){
 	.showNav{
 		display:block;
 	}
-	.showNav{width: 50px; height: 50px;border: 1px solid #000000; position: absolute; right: 30px; top:30px; text-align: center; background-color: aqua;}
-
+	.showNav{width: 50px; height: 50px; position: absolute; right: 5px; top:45px; text-align: center;}
+  .menu{
+    display: block;
+    background-color: #221545;
+    color: #fff;
+  }
+  .menu:hover{
+    background-color: grey;
+    color: #221545;
+  }
+  .menu i{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+  }
   .nav{
 		display: none;
 	}
