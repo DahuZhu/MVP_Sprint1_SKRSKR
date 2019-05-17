@@ -14,6 +14,9 @@ section{
   width:100%;
   float: left;
 }
+img{
+  margin-bottom: -5px;
+}
 .header_img_div{
   width:21%;
   float: left;
@@ -97,11 +100,25 @@ nav ul li ul.dropdown li{
 .tag{
 	width: 100%;color: #fff; background: #221545; font-weight: bold; font-size: 20px; text-align: center; line-height: 50px; text-decoration: none; min-height: 50px;
 }
+.tag:hover{
+  background-color: #adebeb;
+  color: black;
+}
 .tag1_1{
   background-color: #b3b3cc;
   font-size: 15px;
-
 }
+.tag1_1:hover{
+  background-color: #adebeb;
+}
+.tag1_1 a{
+  color:white;
+  text-decoration: none;
+}
+.tag1_1 a:hover{
+  color: #221545;
+}
+
 
 .menu{
   display: none;
