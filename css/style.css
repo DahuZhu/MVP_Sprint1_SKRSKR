@@ -9,45 +9,6 @@ header{
 }
 
 
-/*search bar*/
-.Search_bar {
-		width: 500px;
-		height: 102px;
-		float: right;
-}
-
-.Search_parent {
-		width: 100%;
-		height: 40px;
-		top: 55px;
-		position: relative;
-}
-
-.Search_parent>input:first-of-type {
-		width: 380px;
-		height: 42px;
-		border: 2px solid #221545;
-		font-size: 16px;
-		outline: none;
-    padding-left: 3px;
-}
-
-.Search_parent>input:first-of-type:focus {
-		border: 2px solid #221545;
-    padding-left: 3px;
-}
-
-.Search_parent>input:last-of-type {
-		width: 100px;
-		height: 46px;
-		position: absolute;
-		background: #221545;
-		border: 2px solid #221545;
-		color: #fff;
-		font-size: 16px;
-		outline: none;
-}
-
 
 
 nav{
@@ -145,6 +106,8 @@ footer{
   /*height: 500px;*/
   /*border: 1px solid purple;*/
   background-color: #221545;
+  position: relative;
+  margin-top: 2200px;
 }
 
 footer .footer_all{
