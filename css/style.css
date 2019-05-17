@@ -97,6 +97,7 @@ nav ul li ul.dropdown li{
 }
 .tag1_1{
   background-color: #b3b3cc;
+  font-size: 15px;
 
 }
 @media screen and (max-width: 850px){
@@ -104,7 +105,8 @@ nav ul li ul.dropdown li{
 		display:block;
 	}
 	.showNav{width: 50px; height: 50px;border: 1px solid #000000; position: absolute; right: 30px; top:30px; text-align: center; background-color: aqua;}
-	.nav{
+
+  .nav{
 		display: none;
 	}
 
