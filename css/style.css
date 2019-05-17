@@ -107,6 +107,27 @@ nav ul li ul.dropdown li{
   display: none;
 }
 
+@media screen and (max-width: 1200px){
+  nav ul li{
+    list-style: none;
+    width: 140px;
+  }
+  nav ul li a{
+    display: block;
+    color: #fff;
+    background: #221545;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  nav ul li ul.dropdown li{
+    display: block;
+    width: 140px;
+  }
+}
+
 @media screen and (max-width: 850px){
 	.showNav{
 		display:block;
