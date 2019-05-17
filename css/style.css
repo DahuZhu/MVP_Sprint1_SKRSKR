@@ -7,7 +7,9 @@
 header{
   overflow: hidden;
 }
-
+section{
+  height: auto;
+}
 .sec_div_1{
   width:100%;
   float: left;
@@ -139,11 +141,11 @@ nav ul li ul.dropdown li{
 
 footer{
   margin: 0px;
-  /*height: 500px;*/
+  height: auto;
   /*border: 1px solid purple;*/
   background-color: #221545;
   position: relative;
-  margin-top: 2200px;
+  margin-top: 0px;
 }
 
 footer .footer_all{
@@ -169,7 +171,7 @@ footer .footer_all{
 
 .f_social_icons{
   width: 100%;
-  height: 60px;
+  height: auto;
   margin: 0px 0px;
   padding: 15px 0;
 }
@@ -211,4 +213,7 @@ footer .footer_all{
 }
 hr{
   margin-bottom: 30px;
+}
+.last_hr{
+  margin-bottom: 0;
 }
