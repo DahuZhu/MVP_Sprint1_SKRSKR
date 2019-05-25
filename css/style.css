@@ -100,6 +100,15 @@ nav ul li ul.dropdown li{
 .tag{
 	width: 100%;color: #fff; background: #221545; font-weight: bold; font-size: 20px; text-align: center; line-height: 50px; text-decoration: none; min-height: 50px;
 }
+.tagg{
+  color: #fff;
+  background: #221545;
+  text-decoration: none;
+}
+.tagg:hover{
+  background-color: #adebeb;
+  color: black;
+}
 .tag:hover{
   background-color: #adebeb;
   color: black;
