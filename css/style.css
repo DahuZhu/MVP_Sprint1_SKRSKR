@@ -155,6 +155,110 @@ nav ul li ul.dropdown li{
   display: none;
 }
 
+
+
+.sub_card_container{
+  width: 80%;
+  margin: auto;
+  /*border: 1px solid black;*/
+  margin-bottom: 10px;
+  text-align: center;
+}
+.sub_card_desc{
+  height: auto;
+  width: 90%;
+  margin: 10px auto;
+  text-align: left;
+  padding: 3px;
+  /*border: 1px solid red;*/
+}
+a{
+  text-decoration: none;
+  color: #33afff;
+}
+ul li{
+  list-style: none;
+}
+
+.card {
+  width: 85%;
+  max-width: 450px;
+  min-width: 225px;
+  margin: 10px 8px;
+  /*margin: 10px 5% 10px;*/
+  padding: 5px ;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(226, 192, 72, 0.75);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.75);
+  transition: height 0.4s;
+  display: inline-block;
+}
+.card h1{
+  text-align: center;
+}
+.card_bg{
+  background-image: url("../images/ai.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card:hover{
+  opacity: 1;
+  height: 500px;
+}
+.card .title{
+  width: 100%;
+  color: black;
+  padding: 0px auto;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  position: relative;
+  top: 25px;
+  /*left: 0;*/
+  opacity:0.7;
+  background-color: rgba(230, 230, 230, 0.8);
+}
+.card .card_info {
+  color: black;
+  font-family: sans-serif;
+  background-color: rgba(230, 230, 230, 0.8);
+  width: 100%;
+  height: 60px;
+  position: relative;
+  text-align: center;
+  top: 165px;
+  padding-top: 5px;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.card:hover .card_info{
+  opacity: 0.8;
+}
+.card_desc {
+  /*border: 1px solid red;*/
+  width: 100%;
+  color: black;
+  height: 150px;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+  top: 50px;
+  border-radius: 0 0 12px 12px;
+  opacity: 0;
+  transition: top 0.65s, opacity 0.65s cubic-bezier(0.3, 0.6, 0.6, 1);
+}
+.card:hover .card_desc{
+  top: 200px;
+  opacity: 0.8;
+}
+.card_p{
+  text-align: left;
+}
+
 @media screen and (max-width: 1200px){
   nav ul li{
     list-style: none;
@@ -173,10 +277,6 @@ nav ul li ul.dropdown li{
   nav ul li ul.dropdown li{
     display: block;
     width: 140px;
-  }
-  .card{
-
-
   }
 }
 
@@ -245,111 +345,97 @@ nav ul li ul.dropdown li{
     line-height: 1rem;
     font-style: italic;
   }
+}
+
+@media screen and (max-width: 414px){
   .card{
-    min-height: 180px;
-    min-width: 240px;
+    height: 172px;
+    max-height: 290px;
+  }
+  .card .title{
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .card .card_info {
+    height: 28px;
+    position: relative;
+    text-align: center;
+    top: 110px;
+    font-size: 13px;
+  }
+  .card_desc {
+    height: 100px;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+    top: 0px;
+  }
+  .card:hover .card_desc{
+    top: 140px;
   }
 }
 
-.sub_card_container{
-  width: 80%;
-  margin: auto;
-  border: 1px solid black;
-  margin-bottom: 10px;
-  text-align: center;
-}
-.sub_card_desc{
-  height: auto;
-  width: 90%;
-  margin: 10px auto;
-  text-align: left;
-  padding: 3px;
-  /*border: 1px solid red;*/
-}
-a{
-  text-decoration: none;
-  color: #33afff;
-}
-ul li{
-  list-style: none;
+@media screen and (max-width: 375px){
+  .card{
+    /*height: 240px;*/
+    height: 150px;
+    max-height: 280px;
+  }
+  .card .title{
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .card .card_info {
+    height: 26px;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    font-size: 12px;
+  }
+  .card_desc {
+    height: 100px;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+    top: 0px;
+  }
+  .card:hover .card_desc{
+    top: 120px;
+  }
 }
 
-.card {
-  height: auto;
-  width: 85%;
-  max-width: 450px;
-  min-width: 225px;
-  margin: 10px 8px;
-  /*margin: 10px 5% 10px;*/
-  padding: 5px ;
-  border-radius: 10px 10px 10px 10px;
-  background-color: rgba(226, 192, 72, 0.75);
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.75);
-  transition: height 0.4s;
-  display: inline-block;
+@media screen and (max-width: 320px){
+  .card{
+    /*height: 240px;*/
+    height: 138px;
+    max-height: 250px
+  }
+  .card .title{
+    color: black;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card .card_info {
+    height: 24px;
+    position: relative;
+    text-align: center;
+    top: 90px;
+    font-size: 10px;
+  }
+  .card_desc {
+    height: 100px;
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    top: 0px;
+  }
+  .card:hover .card_desc{
+    top: 110px;
+  }
 }
-.card h1{
-  text-align: center;
-}
-.card_bg{
-  background-image: url("../images/ai.jpg");
 
-  background-repeat: no-repeat;
-}
-.card:hover{
-  opacity: 1;
-  height: 500px;
-}
-.card .title{
-  width: 100%;
-  color: black;
-  padding: 0px auto;
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 20px;
-  line-height: 50px;
-  position: relative;
-  top: 30px;
-  /*left: 0;*/
-  opacity:0.7;
-  background-color: rgba(230, 230, 230, 0.8);
-}
-.card .card_info {
-  color: black;
-  font-family: sans-serif;
-  background-color: rgba(230, 230, 230, 0.8);
-  width: 100%;
-  height: 60px;
-  position: relative;
-  text-align: center;
-  top: 80px;
-  padding-top: 5px;
-  font-size: 20px;
-  opacity: 0;
-  transition: opacity 1s;
-}
-.card:hover .card_info{
-  opacity: 0.8;
-}
-.card_desc {
-  /*border: 1px solid red;*/
-  width: 100%;
-  color: black;
-  height: 160px;
-  padding: 0;
-  font-family: sans-serif;
-  font-size: 17px;
-  line-height: 25px;
-  position: relative;
-  top: 60px;
-  border-radius: 0 0 12px 12px;
-  opacity: 0;
-  transition: top 0.65s, opacity 0.65s cubic-bezier(0.3, 0.6, 0.6, 1);
-}
-.card:hover .card_desc{
-  top: 225px;
-  opacity: 0.8;
-}
 
 
 footer{
