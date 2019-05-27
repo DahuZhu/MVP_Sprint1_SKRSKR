@@ -284,5 +284,11 @@ hr{
   margin-bottom: 0;
 }
 .subclass_images{
-
+  padding: 0;
+  margin: 20px auto;
+  text-align: center;
+}
+.subclass_images .sub_img{
+  max-width: 500px;
+  margin: 10px auto;
 }
