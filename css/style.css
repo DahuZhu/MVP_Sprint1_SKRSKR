@@ -177,7 +177,7 @@ a{
   color: #33afff;
 }
 ul li{
-  list-style: none;
+  /*list-style: none;*/
 }
 
 .card {
