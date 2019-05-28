@@ -176,9 +176,6 @@ a{
   text-decoration: none;
   color: blue;
 }
-a:hover{
-  color:red;
-}
 ul li{
   list-style: none;
 }
