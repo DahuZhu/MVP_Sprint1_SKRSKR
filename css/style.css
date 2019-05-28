@@ -207,37 +207,37 @@ ul li{
   background-repeat: no-repeat;
 }
 .card_bg_imp{
-  background-image: url("../images/ai.jpg");
+  background-image: url("../images/bg.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .card_bg_re{
-  background-image: url("../images/plagrismb.jpg");
+  background-image: url("../images/bg1.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .card_bg_apa{
-  background-image: url("../images/plagrismb.jpg");
+  background-image: url("../images/bg2.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .card_bg_hav{
-  background-image: url("../images/ai.jpg");
+  background-image: url("../images/bg3.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .card_bg_other{
-  background-image: url("../images/plagrismb.jpg");
+  background-image: url("../images/bg4.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .card_bg_pro{
-  background-image: url("../images/ai.jpg");
+  background-image: url("../images/bg5.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .card_bg_avo{
-  background-image: url("../images/plagrismb.jpg");
+  background-image: url("../images/bg6.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
