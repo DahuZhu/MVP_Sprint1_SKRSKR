@@ -174,10 +174,13 @@ nav ul li ul.dropdown li{
 }
 a{
   text-decoration: none;
-  color: #33afff;
+  color: blue;
+}
+a:hover{
+  color:red;
 }
 ul li{
-  /*list-style: none;*/
+  list-style: none;
 }
 
 .card {
@@ -411,7 +414,7 @@ ul li{
 @media screen and (max-width: 414px){
   .card{
     height: 172px;
-    max-height: 290px;
+    max-height: 310px;
   }
   .card .title{
     color: black;
@@ -433,7 +436,7 @@ ul li{
     top: 0px;
   }
   .card:hover .card_desc{
-    top: 140px;
+    top: 132px;
   }
 }
 
@@ -441,7 +444,7 @@ ul li{
   .card{
     /*height: 240px;*/
     height: 150px;
-    max-height: 280px;
+    max-height: 290px;
   }
   .card .title{
     color: black;
@@ -467,6 +470,36 @@ ul li{
   }
 }
 
+@media screen and (max-width: 360px){
+  .card{
+    /*height: 240px;*/
+    height: 150px;
+    max-height: 300px;
+  }
+  .card .title{
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .card .card_info {
+    height: 26px;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    font-size: 12px;
+  }
+  .card_desc {
+    height: 100px;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+    top: 0px;
+  }
+  .card:hover .card_desc{
+    top: 115px;
+  }
+}
+
 @media screen and (max-width: 320px){
   .card{
     /*height: 240px;*/
@@ -486,14 +519,14 @@ ul li{
     font-size: 10px;
   }
   .card_desc {
-    height: 100px;
+    height: 110px;
     font-size: 10px;
     line-height: 12px;
     position: relative;
     top: 0px;
   }
   .card:hover .card_desc{
-    top: 110px;
+    top: 103px;
   }
 }
 
