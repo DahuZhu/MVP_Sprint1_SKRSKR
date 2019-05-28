@@ -206,8 +206,41 @@ ul li{
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
-
-
+.card_bg_imp{
+  background-image: url("../images/ai.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card_bg_re{
+  background-image: url("../images/plagrismb.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card_bg_apa{
+  background-image: url("../images/plagrismb.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card_bg_hav{
+  background-image: url("../images/ai.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card_bg_other{
+  background-image: url("../images/plagrismb.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card_bg_pro{
+  background-image: url("../images/ai.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card_bg_avo{
+  background-image: url("../images/plagrismb.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 .card_bg_en{
   background-image: url("../images/EndNote.jpg");
   background-size: 100% auto;
