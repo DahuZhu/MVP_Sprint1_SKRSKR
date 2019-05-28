@@ -196,11 +196,29 @@ ul li{
 .card h1{
   text-align: center;
 }
-.card_bg{
+.card_bg_ai{
   background-image: url("../images/ai.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+.card_bg_pla{
+  background-image: url("../images/plagrismb.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+
+.card_bg_en{
+  background-image: url("../images/EndNote.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.card_bg_ent{
+  background-image: url("../images/tutorial.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .card:hover{
   opacity: 1;
   height: 500px;
@@ -259,6 +277,16 @@ ul li{
   text-align: left;
 }
 
+.images{
+  margin: 0 auto;
+  width: 40%;
+  min-width: 220px;
+}
+.images img{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
 @media screen and (max-width: 1200px){
   nav ul li{
     list-style: none;
